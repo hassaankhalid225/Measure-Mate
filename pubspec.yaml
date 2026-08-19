@@ -1,0 +1,44 @@
+name: everyday_calculator
+description: "Measure Mate — offline unit converters and everyday calculators."
+publish_to: 'none'
+
+# pub requires a three-part version. The Android versionName is pinned
+# separately in android/app/build.gradle.kts; the +N here is the versionCode,
+# which must increase on every Play Store upload.
+version: 0.2.0+2
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Local key/value storage for theme, home tools and last-used units.
+  # Works fully offline - no network access at any point.
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Generates the Android/iOS launcher icons from assets/icon/icon.png.
+  # Run with: dart run flutter_launcher_icons
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#1652E8"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  adaptive_icon_foreground_inset: 18

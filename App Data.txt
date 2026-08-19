@@ -1,0 +1,34 @@
+════════════════════════════════════════════════
+  MEASURE MATE — APP & RELEASE DETAILS
+════════════════════════════════════════════════
+
+APP
+  App name           : Measure Mate
+  Package name       : com.gts.cal.mesure      (Android applicationId)
+  Bundle ID          : com.gts.cal.mesure      (iOS)
+  Version name       : 0.1
+  Version code       : 1
+  Min SDK            : 24  (Android 7.0)
+  Target SDK         : 36  (Android 16)
+  ABIs               : arm64-v8a, armeabi-v7a, x86_64
+  Category           : Tools
+  Permissions        : NONE (no INTERNET, no runtime permissions)
+
+KEYSTORE
+  File               : android/measure-mate.jks
+  Format             : PKCS#12
+  Alias              : measure-mate
+  Store password     : MeasureMate@2026
+  Key password       : MeasureMate@2026
+  Key                : RSA 2048-bit
+  Signature algo     : SHA384withRSA
+  Created            : 17 Aug 2026
+  Valid until        : 02 Jan 2054  (10,000 days)
+  Owner / Issuer     : CN=Measure Mate, OU=GTS, O=GTS,
+                       L=Lahore, ST=Punjab, C=PK
+  SHA-1              : 2E:6E:19:07:65:8D:47:BC:AA:94:
+                       05:DB:5D:24:23:3E:D2:49:FE:77
+  SHA-256            : A0:FF:C4:9F:97:4A:53:B1:85:E4:B6:52:12:2B:C7:DB:
+                       5B:88:D8:BC:12:FE:A3:06:80:5A:31:EB:D4:83:43:93
+  Config file        : android/key.properties
+
